@@ -28,4 +28,3 @@ public class Aula02TiposPrimitivos {
         System.out.println(caractere);
     }
 }
-// Testando o controle do Git
