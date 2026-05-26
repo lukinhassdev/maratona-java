@@ -1,6 +1,6 @@
 package academy.devdojo.javaoneforall.introduction;
 
-public class Aula06EstrututurasDeRepeticao02 {
+public class Aula06EstruturasDeRepeticao02 {
     public static void main(String[] args) {
         // Imprimindo todos os números pares de 0 até 1000000
         for (int i = 1; i <= 1000000; i+=2) {
