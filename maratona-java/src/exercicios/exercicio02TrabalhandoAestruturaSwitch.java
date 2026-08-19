@@ -2,7 +2,7 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class exercicio02TrabalhandoAestruturaSwitch {
+public class Exercicio02TrabalhandoAestruturaSwitch {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 

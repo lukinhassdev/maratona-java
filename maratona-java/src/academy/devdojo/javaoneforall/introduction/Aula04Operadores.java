@@ -16,7 +16,11 @@ public class Aula04Operadores {
         System.out.println("o valor de a é :"+ a);
         System.out.println("o valor de b é :"+ b);
         System.out.println("a soma de a + b :"+ resultadoSoma);
-        // Quando trablhamos com números onde realizamos uma conta que retorna um resultado com casas decimais o correto é trabalhar com variáveis do tipo double ou float, porque se o tipo da variável for inteiro ele retorna um valor inteiro
+
+        // Quando trablhamos com números onde realizamos uma conta que retorna um resultado com casas decimais o
+        // correto é trabalhar com variáveis do tipo double ou float, porque se o tipo da variável for inteiro ele
+        // retorna um valor inteiro
+
         System.out.println("--------------------------------");
         System.out.println("VALOR DIVISÃO");
         System.out.println("--------------------------------");
@@ -27,7 +31,9 @@ public class Aula04Operadores {
         System.out.println("o valor de numero01 é :"+ numero01);
         System.out.println("o valor de numero02 é :"+ numero02);
         System.out.println("veja o resultado do numero01 dividido pelo numero02 :"+resultadoConta);
+
         // Nesse segundo caso abaixo, o valor do resultado dessa divisão vai retornar um número inteiro: 3
+
         System.out.println("--------------------------------");
         System.out.println("VALOR DIVISÃO");
         System.out.println("--------------------------------");
@@ -39,12 +45,17 @@ public class Aula04Operadores {
         System.out.println("o valor de y:"+ y);
         System.out.println("resultado da divisão:"+ resultadoDivisao);
         System.out.println();
+
         // < > <= >= == !=
+
         boolean isDezMaiorQueVinte = 10 > 20;
         boolean isDezMenorQueVinte = 10 < 20;
         boolean isDezIgualVinte = 10 == 20;
         boolean isDezDifenteDez = 10 != 10;
-        // Nesse caso abaixo retornará um true (Verdadeiro) por que estamos comparando números, se compararmos a uma string irá acontecer um erro de compilação.
+
+        // Nesse caso abaixo retornará um true (Verdadeiro) por que estamos comparando números, se compararmos a
+        // uma string irá acontecer um erro de compilação.
+
         boolean isDezIgualDez = 10 == 10.0;
         System.out.println("isDezMaiorQueVinte :" + isDezMaiorQueVinte);
         System.out.println("isDezMenorQueVinte :" + isDezMenorQueVinte);
@@ -78,7 +89,9 @@ public class Aula04Operadores {
         bonus /= 2;
         bonus %= 2;
         System.out.println(bonus);
+
         // Operadores unários do java (incrementados)
+
         int contador = 0;
         contador += 1; // contador = contador + 1
         contador++; // contador recebe o contador e soma +1 um a variável na memória

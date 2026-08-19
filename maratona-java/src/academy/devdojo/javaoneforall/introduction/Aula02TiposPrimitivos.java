@@ -8,9 +8,9 @@ public class Aula02TiposPrimitivos {
         String name = "Lucas";
         String frase = "Eu estou aprendendo java com DevDojo";
         int age = 18;
-        long numeroGrande = 100000;
-        double salarioDouble = 2000;
-        float salarioFloat = 2500;
+        long numeroGrande = 100000L;
+        double salarioDouble = 2000.0D;
+        float salarioFloat = 2500.0F;
         boolean verdadeiro = true;
         boolean falso = false;
         short idadeShort = 10;

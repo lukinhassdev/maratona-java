@@ -2,7 +2,7 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class exercicio01CalculandoBaseDeUmTriangulo {
+public class Exercicio01CalculandoBaseDeUmTriangulo {
     public static void main(String[] args) {
         Scanner lerValor = new Scanner(System.in);
 
